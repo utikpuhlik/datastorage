@@ -1,2 +1,2 @@
-# datastorage
-datasets for educational purpose 
+# Datastorage
+Datasets for educational purpose in collaboration with @Adastra
