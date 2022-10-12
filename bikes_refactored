@@ -1,3 +1,18 @@
+#### ZKOUMAME ZAVISLOST PRONAJMU BIKES "RENTAL COUNT" NA POCASI, SEASON A DALSI ATRIBUTY #####
+#### UDELALI JSME REFACTORING DATASETU V PYTHONU PRO SNADNEJSI POUZIVANI V BUDOUCNU ####
+#### POPIS ATRIBUTU ####
+* Temperature - Celsius
+* Humidity - %
+* Wind speed - m/s
+* Rainfall,Snowfall - mm
+* Holiday - boolean
+* Rental count - cilovy atribut, pocet pronajmu 
+* Normal Humidity - Boolean
+* IsSnowing,IsRaining - Boolean
+* Temperature Category - categorized
+* Rental Category - categorized by per.: 25% 50% 75%
+* Wind category - categorized
+
 Date,Hour,Temperature,Humidity,Wind speed,Rainfall,Snowfall,Seasons,Holiday,Rental count,Normal Humidity,Temperature Category,Rental category,Wind category,IsSnowing,IsRaining,Day category
 2017-12-01,0,-5.2,37,2.2,0.0,0.0,Winter,False,257,False,Freezing,Okay,Gentle,False,False,Night
 2017-12-01,1,-5.5,38,0.8,0.0,0.0,Winter,False,219,False,Freezing,Okay,Light,False,False,Night
